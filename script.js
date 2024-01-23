@@ -15,8 +15,8 @@ if (moood == "happy"){
         moodbox.style.backgroundColor = "yellow"; }
 
 if (moood == "hungry"){
-        moodbox.style.backgroundColor = "black"; 
-}
+        moodbox.style.backgroundColor = "black"; }
+
 
 else{
     moodbox.style.backgroundColor = "grey"; }
