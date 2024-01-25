@@ -6,20 +6,20 @@ inbox.addEventListener("change", changeColor);
 function changeColor(){
     const moood = inbox.value;
 if (moood == "angry"){
-    moodbox.style.backgroundColor = "red"; }
+    box.style.backgroundColor = "red"; }
 
- if (moood == "sad"){
-        moodbox.style.backgroundColor = "blue"; }
+ else if (moood == "sad"){
+        box.style.backgroundColor = "blue"; }
 
-if (moood == "happy"){
-        moodbox.style.backgroundColor = "yellow"; }
+else if (moood == "happy"){
+        box.style.backgroundColor = "yellow"; }
 
-if (moood == "hungry"){
-        moodbox.style.backgroundColor = "black"; }
+else if (moood == "hungry"){
+        box.style.backgroundColor = "black"; }
 
 
 else{
-    moodbox.style.backgroundColor = "grey"; }
+    box.style.backgroundColor = "grey"; }
 }
 
     
